@@ -1,0 +1,50 @@
+.DS_Store
+.serverless
+__pycache__
+*.pyc
+services/ingestion/holdings/env/*
+*.zip
+*.Python
+.vscode/
+*venv/
+*.venv/
+*.tox/
+*.idea/
+*.local_helpers/
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+*.orig
+pip-wheel-metadata/
+
+# Serverless directories
+.serverless
+
+# Testing
+.coverage
+*.pytest_cache/
+
+
+# Coverage Reporting
+htmlcov/
+
+# Deployment
+dependencies/
+samconfig.toml
+tags.properties
+.aws-sam/*
